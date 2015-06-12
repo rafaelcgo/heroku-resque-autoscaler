@@ -4,7 +4,7 @@ module Heroku
     module Autoscaler
       class Railtie < Rails::Railtie
         rake_tasks do
-          load '../../../tasks/resque_dyno_scale_manager.rake'
+          load 'tasks/resque_dyno_scale_manager.rake'
         end
       end
     end
